@@ -4,7 +4,7 @@
 `define     STAT_ADDR   32'h110
 `define     START_ADDR  32'h10c
 
-`define 	TIMEOUT_CYCLE 	99999999
+`define 	TIMEOUT_CYCLE 	10000000
 module DMAC_CFG_TB ();
 
     reg                     clk;
