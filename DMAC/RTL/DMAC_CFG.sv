@@ -53,7 +53,7 @@ module DMAC_CFG
 
     wire    wren;
     assign  wren                = // fill your code here
-    always @(posedge clk) begin
+    always_ff @(posedge clk) begin
         // fill
         // your
         // code
@@ -78,7 +78,7 @@ module DMAC_CFG
     // pwrite     : ________________________________________
     // reg update : ___----_________________________________
     //
-    always @(posedge clk) begin
+    always_ff @(posedge clk) begin
         // fill
         // your
         // code
